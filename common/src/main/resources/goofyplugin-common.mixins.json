@@ -1,0 +1,26 @@
+{
+  "required": true,
+  "package": "com.thekillerbunny.goofyplugin.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "minVersion": "0.8",
+  "client": [
+    "AvatarManagerMixin",
+    "BossHealthOverlayMixin",
+    "ChatComponentMixin",
+    "EventsAPIMixin",
+    "FiguraAPIManagerMixin",
+    "FiguraDocsManagerMixin",
+    "FiguraGlobalsDocsMixin",
+    "FiguraLuaRuntimeMixin",
+    "GameRendererMixin",
+    "GuiMixin",
+    "LevelRendererMixin",
+    "PlayerStatusWidgetMixin",
+    "PlayerTabOverlayMixin",
+    "ScreenMixin",
+    "UserDataMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

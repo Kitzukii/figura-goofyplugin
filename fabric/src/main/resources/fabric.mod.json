@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "${mod_id}",
+  "version": "${version}",
+  "name": "${display_name}",
+  "description": "${description}",
+  "mixins": [
+    "goofyplugin-common.mixins.json",
+    "goofyplugin-common-accessors.mixins.json"
+  ],
+  "authors": [
+    "${authors}"
+  ],
+  "contact": {
+    "sources": "https://github.com/Figura-Goofballs/GoofyPlugin",
+    "issues": "https://github.com/Figura-Goofballs/GoofyPlugin/issues"
+  },
+  "license": "LGPL-2.1",
+  "icon": "assets/goofyplugin/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.thekillerbunny.goofyplugin.fabric.GoofyPluginFabric"
+    ],
+    "figura_api": [
+      "com.thekillerbunny.goofyplugin.GoofyPlugin"
+    ],
+    "figura_permissions": [
+      "com.thekillerbunny.goofyplugin.GoofyPermissionsPlugin"
+    ]
+  },
+  "depends": {
+    "fabric": "*",
+    "minecraft": "${minecraft_version_out}",
+    "figura": ">=${figura_version}"
+  },
+  "custom": {
+    "modmenu": {
+      "links": {
+          "modmenu.discord": "https://discord.gg/7RQYvXDXDQ"
+      },
+      "update_checker": true
+    }
+  }
+}

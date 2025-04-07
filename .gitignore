@@ -1,0 +1,64 @@
+# Gradle
+
+.gradle/
+build/
+out/
+classes/
+
+# Eclipse
+
+*.launch
+
+# Idea
+
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Minecraft
+run/
+runV2/
+
+# VScode
+
+.settings/
+.vscode/
+.classpath
+.project
+
+# macOS
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Fabric
+
+remappedSrc/
+*.cap
+*.rdc
+/Merged/
+
+# Forge MDK
+
+forge*changelog.txt
+
+# Used for testing against other mods
+libs/*
+output/
+libs/
+.metadata
+.vscode
+.settings.
+
+# Vim swapfiles
+*.sw?
+
+# Nathan backups
+*~
+*/.factorypath
+
+# Not sure what to categorize this at
+fabric/bin
+common/bin
